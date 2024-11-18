@@ -30,3 +30,5 @@ void readSect(void *dst, int offset) { // reading a sector of disk
 		((int *)dst)[i] = inLong(0x1F0);
 	}
 }
+
+//end
